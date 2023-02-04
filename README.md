@@ -5,3 +5,6 @@
 
 ## random_pickup.py
 功能: 隨機挑選圖片
+
+## read_onnx.py
+功能: 讀取onnx格式模型
