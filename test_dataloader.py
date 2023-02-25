@@ -50,8 +50,8 @@ class customDataset(Dataset):
 def parse_opt():
     parser = argparse.ArgumentParser()
     parser.add_argument('--data', type=str, default='dogDataset', help='data path')
-    parser.add_argument('--batch-size', type=int, default=16, help='total batch size for all GPUs, -1 for autobatch')
-    parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=128, help='train, val image size (pixels)')
+    parser.add_argument('--batch-size', type=int, default=16, help='batch size')
+    parser.add_argument('--imgsz', '--img', '--img-size', type=int, default=128, help='train image size (pixels)')
     parser.add_argument('--workers', type=int, default=8, help='max dataloader workers (per RANK in DDP mode)')
     return parser.parse_known_args()[0]
 
