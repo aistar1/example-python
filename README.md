@@ -25,5 +25,5 @@ reference:
 http://vision.stanford.edu/aditya86/ImageNetDogs/
 
 ## mosaic.py
-功能: 將四張圖片合成一張
+功能: 將四張圖片合成一張  
 ![image](https://user-images.githubusercontent.com/123159112/222131459-a8f366cb-6b3c-4b07-8e64-8bbeae47c73d.png)
